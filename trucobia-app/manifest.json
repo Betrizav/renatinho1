@@ -1,0 +1,23 @@
+{
+    "name": "Contador de tento",
+    "short_name": "Truco",
+    "icons": [
+        {
+            "src": "imagens/Naipe.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "imagens/espadilha.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1a1535",
+    "theme_color": "#1a1535"
+}

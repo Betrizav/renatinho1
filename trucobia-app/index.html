@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="imagens/Naipe.png" type="image/png" />
+    <meta name="description" content="Contador de Truco" />
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+    <meta name="theme-color" content="white" />
+    <title>truco</title>
+</head>
+<body class="truquinho">
+    <div class="container">
+      <h1>Truco Pontuação</h1>
+      <div class="times">
+        <div class="team">
+            <input type="text" id="nomedotime1" placeholder="Digite o Nome da equipe1" class="team-input" />
+        </div>
+    
+        <div class="team">
+            <input type="text" id="nomedotime2" placeholder="Digite o Nome da equipe2" class="team-input" />
+        </div>
+    
+    </div>
+    
+  <div class="botoes">
+    <div class="pontucao">
+      <button  id="umponto" class="pontuacao-button">+1 Ponto</button>
+      <button  id="tresponto" class="pontuacao-button">+3 Pontos</button>
+      <button  id="seisponto" class="pontuacao-button">+6 Pontos</button>
+      <button  id="dozeponto" class="pontuacao-button">+10 Pontos</button>
+    </div>
+  
+    <div class="pontucaoum">
+      <button  id="umponto2" class="pontuacao-button">+1 Ponto</button>
+      <button  id="tresponto2" class="pontuacao-button">+3 Pontos</button>
+      <button  id="seisponto2" class="pontuacao-button">+6 Pontos</button>
+      <button  id="dozeponto2" class="pontuacao-button">+10 Pontos</button>
+    </div>
+  </div>
+  
+  <div class="botoes-bottom">
+    <button id="reset">Resetar</button>
+    <button onclick="salvar()">SALVAR</button>
+  </div>
+
+
+<div class="pontos">
+  <p>Pontos</p>
+  <h3 class="equipe"></h3>
+  <h1><span id="novonome1">Nós</span>: <span id="time1ponto">0</span></h1>
+</div>
+
+<h3 class="equipe"></h3>
+<h1><span id="novonome2">Eles</span>: <span id="time2ponto">0</span></h1>
+ </div>
+        
+        <script src="js/index.js"></script>
+    </div>
+</body>
+</html>
